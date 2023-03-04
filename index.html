@@ -10,8 +10,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/general.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./general.css">
     <title>Yen Avila</title>
 </head>
 
@@ -20,49 +20,86 @@
         <nav>
             <ul class="navegacion">
                 <b>
-                    <li>Inicio</li>
+                    <li><a href="#AcercaDeMi">Acerca de mi</a></li>
                 </b>
                 <b>
-                    <li><a href="./portafolio.html"> Portafolio</a></li>
+                    <li><a href="#Proyectos">Proyectos</a></li>
                 </b>
-                <b>
-                    <li><a href="./contactame.html"> Contactame</a></li>
+                
+                    <b>
+                    <li><a href="#Suscribete">Suscribete</a></li>
                 </b>
             </ul>
         </nav>
 
     </header>
     <main>
-        <section>
-            <div class="card presentacion">
+        <section id="AcercaDeMi">
 
-                <h1 class="presentacion">Hola! Mi nombre es Yen y soy una desarrolladora full stack</h1>
-                <div class="container">
+            <div class="ContainerPrincipal">
+                <div class="ContentPresentacion">
+                    <h1>Hola!  Mi nombre es Yen,  Y hago sitios web.</h1>
+                    
+                    <h3>Soy una desarrolladora creativa independiente.</h3>
+                   
+                    <a href="mailto:yendaravila@gmail.com">Ecribeme un Email</a>
+                    
+                    <ul>
+                        <li> <a href=""><button><i class="fa-brands fa-instagram"></i></button> </a></li>
+                        <li> <a href=""><button><i class="fa-brands fa-twitter"></i></button> </a></li>
+                        <li> <a href=""><button><i class="fa-regular fa-envelope"></i></button> </a></li>
+                    </ul>
+                </div>
+                <div  class="ContentImg">
+                    <img src="./multimedia/yen.jpeg" alt="Imagen Yen" style="width: 200px
+                        ; height: 300px;">
+                        </div>
+                 <div class="ContentBorde">
 
-                    <p>Me especializo en la creación de sitios para particulares y pequeñas empresas. No deberías
-                        tener
-                        que
-                        conformarte con soluciones baratas o plantillas genéricas. Proporciono diseños
-                        personalizados a
-                        precios
-                        asequibles. Con frecuencia, su sitio web es la primera impresión que reciben sus clientes,
-                        así
-                        que
-                        asegúrese
-                        de que sea una buena impresión. Dado que mi tiempo se divide entre algunas cosas diferentes,
-                        no
-                        puedo
-                        asumir
-                        todos los proyectos que me gustaría, pero siempre estoy buscando un trabajo divertido. Eche
-                        un
-                        vistazo
-                        a mi
-                        cartera a continuación, no dudes en contactarme.</p>
+                 </div>
+            </div>
+               
+            </div>
+
+        </section>
+        <h2 class="ProyectosRecientes">Proyectos Recientes</h2>
+        <br>
+        <section id="Proyectos" class="ProyectosDestacados">
+            <div class="Proyecto">
+                <img src="./multimedia/Comida.jpg" alt="Plato de comida" style="width: 250px; height: 250px;">
+                <a href=""></a>
+            </div>
+
+            <div class="Proyecto">
+                <img src="./multimedia/mano.jpg" alt="Mano femenina" style=" width: 250px; height: 250px;">
+                <a href=""></a>
+            </div>
+
+            <div class="Proyecto">
+                <img src="./multimedia/ingredientes.jpg" alt="foto ingredientes" style="width: 250px; height: 250px;">
+                <a href=""></a>
+            </div>
+        </section>
+        <section id="Suscribete">
+            <div class="Formulario">
+                <div class="FormularioUno">
+                    <h4> Únete a la lista de correo electronico o <br> sígueme en las redes sociales para recibir
+                        actualizaciones
+                        ocasionales sobre todos mis trabajos.</h4>
+                </div>
+                <div class="FormularioDos">
+                    <form>
+                        <input type="Email" name="Email" id="Email" placeholder="Escriba su Email">
+                        <br>
+                        <input class="Suscripcion" type="button" value="Suscribete">
+                    </form>
                 </div>
             </div>
         </section>
+        
+
     </main>
-    <footer>
+    <footer id="Contactame">
         <ul>
             <li> <a href=""><button><i class="fa-brands fa-instagram"></i></button> </a></li>
             <li> <a href=""><button><i class="fa-brands fa-twitter"></i></button> </a></li>
